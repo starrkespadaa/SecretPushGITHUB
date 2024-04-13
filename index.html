@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Monkey </title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container mt-5">
+    <div class="card">
+      <div class="card-body">
+        <h1 class="card-title mb-4">Password Monkey </h1>
+        <div class="form-group">
+          <input type="password" class="form-control" id="passwordInput" placeholder="Entrez votre mot de passe">
+        </div>
+        <button class="btn btn-primary mt-3" onclick="checkPassword()">Vérifier</button>
+        <div id="monkeyAnimation" class="monkey mt-3"></div>
+        <div id="passwordMessage" class="mt-2"></div> <!-- Ajout de l'élément pour afficher le message de mot de passe incorrect -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
